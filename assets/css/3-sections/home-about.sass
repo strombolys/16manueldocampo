@@ -1,16 +1,30 @@
 section.about
 	background:
 		image: url(../img/about-bg.jpg)
-		position: center botton
-		size: cover 
+		position: center 
+		size: cover
+	//color: #8f8a8b 
 
 	h2
 		color: #8f8a8b
-	h3 
+		font:
+			size: 50px
+			weight: 400
+		line-height: 1
+		margin-left: -180px
+		margin-top: 0px
+		text-align: right 
+
+	.home-lead
 		color: #8f8a8b
-	h4
-		color: #8f8a8b
-	font:
-		size: 60px
-		weight: 400
-	line-height: 1
+		padding-bottom: 0px
+		text-align: right
+	
+@media (max-width: 640px)
+	section.about 
+		h2, .home-lead
+			margin-left: auto
+			margin-right: 2px
+			max-width: 300px
+		background:
+		position: cover

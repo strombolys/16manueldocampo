@@ -638,17 +638,28 @@ body {
 
 section.about {
   background-image: url(../img/about-bg.jpg);
-  background-position: center botton;
-  background-size: cover;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 1; }
+  background-position: center;
+  background-size: cover; }
   section.about h2 {
-    color: #8f8a8b; }
-  section.about h3 {
-    color: #8f8a8b; }
-  section.about h4 {
-    color: #8f8a8b; }
+    color: #8f8a8b;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: -180px;
+    margin-top: 0px;
+    text-align: right; }
+  section.about .home-lead {
+    color: #8f8a8b;
+    padding-bottom: 0px;
+    text-align: right; }
+
+@media (max-width: 640px) {
+  section.about {
+    position: cover; }
+    section.about h2, section.about .home-lead {
+      margin-left: auto;
+      margin-right: 2px;
+      max-width: 300px; } }
 
 .home-wrap {
   display: -webkit-box;
@@ -698,14 +709,19 @@ section.about {
   width: 50%;
   background: yellow; }
 
+.push-right {
+  margin-left: 330px; }
+
 @media (max-width: 640px) {
   .home-sections .flex {
     display: block; }
   .col-1 {
     max-width: 100%; }
   .col-50 {
-    width: auto; } }
+    width: auto; }
+  .push-right {
+    margin-left: 10px; } }
 
 .home-lead {
-  font-size: 36px;
-  line-height: 1.1; }
+  font-size: 30px;
+  line-height: 0.15; }
