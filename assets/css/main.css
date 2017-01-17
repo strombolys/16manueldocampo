@@ -661,6 +661,22 @@ section.about {
       margin-right: 2px;
       max-width: 300px; } }
 
+section.skills {
+  background: #3f535e; }
+  section.skills h1 {
+    color: #4ecdc4;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 25px;
+    line-height: 1;
+    text-align: center; }
+  section.skills p {
+    color: #4ecdc4;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center; }
+
 .home-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -702,8 +718,7 @@ section.about {
 
 .col-2 {
   max-width: 620px;
-  margin: 0 10px;
-  background: honeydew; }
+  margin: 0 10px; }
 
 .col-50 {
   width: 50%;
