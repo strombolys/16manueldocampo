@@ -670,12 +670,26 @@ section.skills {
     letter-spacing: 25px;
     line-height: 1;
     text-align: center; }
+  section.skills h3 {
+    color: #4ecdc4;
+    text-align: center; }
   section.skills p {
     color: #4ecdc4;
     font-size: 20px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.3;
     text-align: center; }
+  section.skills .escudo {
+    display: block;
+    margin: 0 auto 0 auto; }
+  @media (max-width: 425px) {
+    section.skills h1 {
+      color: #4ecdc4;
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 15px;
+      line-height: 1;
+      text-align: center; } }
 
 .home-wrap {
   display: -webkit-box;
