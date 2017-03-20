@@ -58,7 +58,7 @@ function css3RadialProgressBar01() {
   console.log(commute01);
   
 if (commute01 == 0) {
-   xvaluenow01 = 50;
+   xvaluenow01 = 70;
    var progreso01 = document.getElementById('progreso01');
    progreso01.innerHTML = 'Progress '+ xvaluenow01 + '%';
   commute01 = 1;
@@ -91,6 +91,62 @@ if (commute01 == 0) {
   progress_circle01.setAttribute("aria-valuenow", xvaluenow01);  
   progress_style01.innerHTML = " \
 .p-h01:before, .p-f01, .p-f01:before{ \
+-moz-transform: " + rotatenum + "; \
+-webkit-transform: " + rotatenum + "; \
+-o-transform: " + rotatenum + "; \
+-ms-transform: " + rotatenum + "; \
+transform: " + rotatenum + "; \
+-webkit-box-shadow: 0 0 0 " + shadowfix + " #828282; \
+  box-shadow: 0 0 0 " + shadowfix + " #828282;}\
+\ ";
+}
+
+
+//document.body.onload = function() {css3RadialProgressBar()};
+
+ /*----------------------------------------------------*/
+
+var commute02 = new Boolean;
+function css3RadialProgressBar02() {
+  
+  var xvaluenow02;
+  
+  console.log(commute02);
+  
+if (commute02 == 0) {
+   xvaluenow02 = 50;
+   var progreso02 = document.getElementById('progreso02');
+   progreso02.innerHTML = 'Progress '+ xvaluenow02 + '%';
+  commute02 = 1;
+  } else {
+  xvaluenow02 = 0;
+  
+  var progreso02 = document.getElementById('progreso02');
+   progreso02.innerHTML = 'Click to view';
+    commute02 = 0;
+ 
+  };
+  
+
+  var rotatenum = 'rotate(' + xvaluenow02 * 1.8 + 'deg)';
+  //var progress = document.getElementById('progress');
+  
+  var progress_circle02 = document.getElementById('progress-circle02');
+  var progress_style02 = document.getElementById('progress-style02');
+  
+  /* Fix: Cover gap with shadow */
+  if (xvaluenow02 == 0) {
+    var shadowfix = "0";
+  }
+  else {
+    var shadowfix = "1px";
+  }
+  
+ 
+  
+  progress_circle02.setAttribute("aria-valuenow", xvaluenow02);  
+  progress_style02.innerHTML = " \
+.p-h02:before, .p-f02, .p-f02:before{ \
 -moz-transform: " + rotatenum + "; \
 -webkit-transform: " + rotatenum + "; \
 -o-transform: " + rotatenum + "; \
