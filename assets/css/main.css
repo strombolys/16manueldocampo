@@ -572,20 +572,22 @@ body {
       top: 15px; }
     .home-wrap header .mobile-nav-toggle span:after {
       top: -17px; }
-    .home-wrap header .mobile-nav-toggle.is-open span {
-      background: transparent; }
-    .home-wrap header .mobile-nav-toggle.is-open span:before,
-    .home-wrap header .mobile-nav-toggle.is-open span:after {
-      -webkit-transform-origin: center;
-              transform-origin: center;
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
-      top: 0; }
-    .home-wrap header .mobile-nav-toggle.is-open span:after {
-      -webkit-transform-origin: center;
-              transform-origin: center;
-      -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg); }
+  .home-wrap header .mobile-nav-toggle:hover span {
+    background: transparent; }
+  .home-wrap header .mobile-nav-toggle:hover span:after,
+  .home-wrap header .mobile-nav-toggle.is.open span:after {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0; }
+  .home-wrap header .mobile-nav-toggle:hover span:before,
+  .home-wrap header .mobile-nav-toggle.is.open span:before {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 0; }
 
 .home-wrap .mobile-nav {
   display: none;

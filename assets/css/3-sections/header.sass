@@ -72,19 +72,26 @@
 
             span:after
                 top: -17px
+                //aqui ponia .is.open
 
-            &.is-open span
-                background: transparent
+        .mobile-nav-toggle
+            
+            &:hover span
+                background: transparent 
 
-            &.is-open span:before,
-            &.is-open span:after
+            &:hover span:after,
+            &.is.open span:after
                 transform-origin: center
                 transform: rotate(45deg)
                 top: 0
+            &:hover span:before,
+            &.is.open span:before
+                transform-origin: center
+                transform: rotate(-45deg)
+                top: 0
 
-            &.is-open span:after
-                        transform-origin: center
-                        transform: rotate(-45deg)
+
+            
 
     //Mobile Nav
     .mobile-nav
@@ -130,7 +137,7 @@
 
             .mobile-nav-toggle
                 display: flex
-
+        //aqui ponia .is.open
         .mobile-nav.is-open
             display: block
             transform: translateY(0%)

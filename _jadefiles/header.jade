@@ -6,16 +6,17 @@ mixin nav-content()
                 li: a(href="contact") Contact
 
 
-.mobile-nav(onclick='mobileNav()')
+.mobile-nav
     +nav-content()
 
 header
     .header-position
         h1.logo Manuel Docampo
 
-        nav.site-nav
+        nav.site-nav 
             +nav-content()
 
         a(href="mailto:strombolys@gmail.com").email-link +email me
 
         .mobile-nav-toggle: span
+        //.mobile-nav-toggle(onclick='mobileNav()'): span
