@@ -1,21 +1,10 @@
-/*
-$('.js-toggle-menu').click(function(e){
-  e.preventDefault();
-  $('.mobile-header-nav').slideToggle();
-  $(this).toggleClass('open');
-});*/
-
-
-
-/*
-
-$(function() {
-	//mentoringBubbleClick();
-	//setInterval(function(){articleTada()}, 4000);
-	//designBGStuff();
-	//smoothScroll(300);
+/*$(function()) {
+	mentoringBubbleClick();
+	setInterval(function(){articleTada()}, 4000);
+	designBGStuff();
+	smoothScroll(300);
 	mobileNav();
-	});
+};
 */
 
 
@@ -38,8 +27,8 @@ $(function() {
 		var $this = $(this),
 			$selectors = $('.mobile-nav');
 
-		$this.toggleClass('.is-open');
-		$selectors.toggleClass('.is-open');
+		$this.toggleClass('is-open');
+		$selectors.toggleClass('is-open');
 	}
 
 	function onBlakAClick (event) {
@@ -63,9 +52,7 @@ $(function() {
 	});
 
 
-});(jQuery);
-
-*/
+})(jQuery);*/
 /*
 function mobileNav() {
 	$('mobile-nav-toggle').on('click', function(){
@@ -73,5 +60,4 @@ function mobileNav() {
 		if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
 		else { $('.moblile-nav-toggle, .mobile-nav').addClass('is-open');}
 		});
-}*/
-
+} */

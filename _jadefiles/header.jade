@@ -1,8 +1,10 @@
 mixin nav-content()
      ul
-                li: a(href="#about") About
-                li: a(href="skills") Skillss
-                li: a(href="#portfolio") Portfolio
+
+                li: a(href="#about") About 
+                li: a(href="skills") Skills
+                li: a(href="portfolio") Portfolio
+
                 li: a(href="contact") Contact
 
 //.mobile-nav.is-open
@@ -13,9 +15,10 @@ header
     .header-position
         h1.logo Manuel Docampo
 
-        nav.site-nav
+        nav.site-nav 
             +nav-content()
 
         a(href="mailto:strombolys@gmail.com").email-link +email me
 
         .mobile-nav-toggle: span
+        //.mobile-nav-toggle(onclick='mobileNav()'): span

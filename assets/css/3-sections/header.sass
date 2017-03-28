@@ -72,19 +72,28 @@
 
             span:after
                 top: -17px
+                //aqui ponia .is.open
+
 
             &:hover span
                 background: transparent
 
             &:hover span:before,
             &:hover span:after
+
                 transform-origin: center
                 transform: rotate(45deg)
+                top: 0
+            &:hover span:before,
+            &.is.open span:before
+                transform-origin: center
+                transform: rotate(-45deg)
                 top: 0
 
             &:hover span:after
                         transform-origin: center
                         transform: rotate(-45deg)
+
 
     //Mobile Nav
     .mobile-nav
@@ -130,7 +139,7 @@
 
             .mobile-nav-toggle
                 display: flex
-
+        //aqui ponia .is.open
         .mobile-nav.is-open
             display: block
             transform: translateY(0%)
