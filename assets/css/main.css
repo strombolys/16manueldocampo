@@ -664,20 +664,10 @@ section.about {
   section.about {
     position: cover; }
     section.about h2, section.about .home-lead {
+      line-height: 1;
       margin-left: auto;
-      margin-right: 2px;
-      max-width: 300px; } }
-
-@media (max-width: 300px) {
-  section.about h2, section.about .home-lead {
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 2px;
-    max-width: 280px;
-    background-position: left;
-    background-size: 300px; } }
+      margin-right: 1px;
+      max-width: 600px; } }
 
 section.skills {
   background: #3f535e; }
@@ -725,7 +715,7 @@ section.skills02 {
 
 .mainmaincontainer {
   font-family: Arial, Helvetica, sans-serif;
-  background: blue;
+  background: #3F535E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -736,8 +726,8 @@ section.skills02 {
       flex-wrap: wrap; }
 
 .maincontainer, .maincontainer01, .maincontainer02 {
-  background: pink;
-  margin: 1px;
+  background: #3F535E;
+  margin: 5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
