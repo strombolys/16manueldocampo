@@ -737,10 +737,7 @@ section.skills02 {
 
 .maincontainer, .maincontainer01, .maincontainer02 {
   background: pink;
-  margin: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin: 1px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -748,7 +745,7 @@ section.skills02 {
       -ms-flex-align: center;
           align-items: center;
   height: 270px;
-  width: 300px;
+  width: 260px;
   cursor: pointer; }
 
 .progress-container, .progress-container01, .progress-container02 {
@@ -757,8 +754,8 @@ section.skills02 {
   border-radius: 1000px;
   position: absolute;
   background: #fff;
-  height: 200px;
-  width: 200px; }
+  height: 250px;
+  width: 250px; }
 
 .ima {
   height: 90px;
