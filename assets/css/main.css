@@ -741,6 +741,9 @@ section.skills02 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -754,8 +757,8 @@ section.skills02 {
   border-radius: 1000px;
   position: absolute;
   background: #fff;
-  height: 250px;
-  width: 250px; }
+  height: 200px;
+  width: 200px; }
 
 .ima {
   height: 90px;
