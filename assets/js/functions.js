@@ -1,4 +1,5 @@
 (function($){
+	"use strict"
 		var $mobileNavToggleBtn,
 			$blankATags	= $('a[href^="#"]'),
 			$body = $('html, body'),
@@ -6,13 +7,14 @@
 				duration: 1500
 			};
 
+		// function menu open
 		function onBtnClick	(e){
-			var $this = $(this);
-			var $selectors = $('.mobile-nav');
+			var $this = $(this),
+			$selectors = $('.mobile-nav');
 			$this.toggleClass('is-open');	
 			$selectors.toggleClass('is-open');
 		}
-
+		// function smooth animate
 		function onBlankAClick(event){
 			var $this = $(this),
 				href = $this.attr('href'),
