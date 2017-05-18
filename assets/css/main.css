@@ -1,4 +1,5 @@
 /* latin */
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 @font-face {
   font-family: 'Fira Sans';
   font-style: italic;
@@ -852,6 +853,122 @@ section.skills02 {
   font-size: 10px;
   bottom: 0px;
   left: 35%; }
+
+section.skills03 { }
+
+.mainSkills3Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #3F535E; }
+
+.container {
+  background: #3F535E;
+  position: relative;
+  height: 600px;
+  width: 600px;
+  margin: 50px auto; }
+
+.ti-gd {
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 15px; }
+
+.graph, .ps-bar, .inde-bar, .ai-bar, .pr-bar, .ae-bar, .sg-bar {
+  position: absolute; }
+
+.graph {
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  border-left: 5px solid white;
+  border-bottom: 5px solid white; }
+
+.ps-bar, .ai-bar, .inde-bar, .pr-bar, .ae-bar, .sg-bar {
+  left: 0.9%;
+  height: 15%;
+  width: 20%;
+  transition: width 1s ease-in-out;
+  -webkit-transition: width 2s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out; }
+
+.ps-tx, .ai-tx, .inde-tx, .pr-tx, .ae-tx, .sg-tx {
+  max-width: 85px;
+  font-family: arial;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 3.6em; }
+
+.perc {
+  position: absolute;
+  left: 160px;
+  color: #3F535E; }
+
+.ps-bar {
+  top: 15%;
+  background: #191628; }
+
+.pr-bar {
+  top: 15%;
+  background: #1D0B35; }
+
+.ps-bar:hover, .pr-bar:hover {
+  width: 90%; }
+
+.ps-tx {
+  color: #5CC2F2;
+  border: 5px solid #5CC2F2; }
+
+.pr-tx {
+  color: #E788FE;
+  border: 5px solid #E788FE; }
+
+.ai-bar {
+  top: 41%;
+  background: #2F1E15; }
+
+.ae-bar {
+  top: 41%;
+  background: #1D0B35; }
+
+.ai-bar:hover, .ae-bar:hover {
+  width: 60%; }
+
+.ai-tx {
+  color: #F37021;
+  border: 5px solid #F37021; }
+
+.ae-tx {
+  color: #D8A1FF;
+  border: 5px solid #D8A1FF; }
+
+.inde-bar {
+  top: 70%;
+  background: #310E1E; }
+
+.sg-bar {
+  top: 70%;
+  background: #002625; }
+
+.inde-bar:hover, .sg-bar:hover {
+  width: 50%; }
+
+.inde-tx {
+  color: #FF408C;
+  border: 5px solid #FF408C; }
+
+.sg-tx {
+  color: #00EAE4;
+  border: 5px solid #00EAE4; }
 
 .home-wrap {
   display: -webkit-box;
