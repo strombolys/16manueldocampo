@@ -712,7 +712,8 @@ section.skills {
       max-width: 300px; } }
 
 section.skills02 {
-  background: #3F535E; }
+  background: #3F535E;
+  margin-bottom: 0px; }
 
 .mainmaincontainer {
   font-family: Arial, Helvetica, sans-serif;
@@ -855,6 +856,9 @@ section.skills02 {
   left: 35%; }
 
 section.skills03 { }
+
+.skills03 {
+  background: #3F535E; }
 
 .mainSkills3Container {
   display: -webkit-box;
