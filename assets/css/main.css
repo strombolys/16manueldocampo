@@ -591,8 +591,8 @@ body {
     .home-wrap header .mobile-nav-toggle:hover span:after {
       -webkit-transform-origin: center;
               transform-origin: center;
-      -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg); }
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
 
 .home-wrap .mobile-nav {
   display: none;
