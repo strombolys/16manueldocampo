@@ -663,6 +663,8 @@ section.about {
 
 @media (max-width: 640px) {
   section.about {
+    background: url(../img/about-bg640.jpg);
+      background-image: white;
     position: cover; }
     section.about h2, section.about .home-lead {
       line-height: 1;
