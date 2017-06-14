@@ -649,6 +649,7 @@ section.about {
   background-position: center;
   background-size: cover; }
   section.about h2 {
+    color: #8f8a8b;
     font-size: 50px;
     font-weight: 400;
     line-height: 1;
@@ -666,18 +667,10 @@ section.about {
       background-image: white;
     position: cover; }
     section.about h2, section.about .home-lead {
-      font-weight: 700;
-      font-size: 30px;
-      color: #4ecdc4;
-      text-align: center;
+      line-height: 1;
       margin-left: auto;
       margin-right: 1px;
-      max-width: 600px; }
-    section.about h2 {
-      color: white;
-      font-weight: 900; }
-    section.about .push-right {
-      margin-bottom: 200px; } }
+      max-width: 600px; } }
 
 section.skills {
   background: #3f535e; }
